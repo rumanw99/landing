@@ -4,9 +4,9 @@ import { useState } from 'react';
 // eslint-disable-next-line react/prop-types
 const Slider = ({ showNextSlide, showPrevSlide }) => {
     const sliderImages = [
-        '../../public/image/unsplash_VbDjv8-8ibc (1).png',
-        '../../public/image/unsplash_VbDjv8-8ibc1.png',
-        '../../public/image/unsplash_VbDjv8-8ibc (2).png',
+        'public/image/unsplash.png',
+        'public/image/unsplashone.png',
+        'public/image/unsplashtow.png',
     ];
 
     const [currentImage, setCurrentImage] = useState(0);
