@@ -1,9 +1,9 @@
-
+import asset from '../../public/image/asset.png'
 const Header = () => {
     return (
         <header>
             <div className="logo">
-                <img src="/public/image/asset.png" alt="Your Logo" />
+                <img src={asset} alt="Your Logo" />
             </div>
             <nav>
                 <ul>
