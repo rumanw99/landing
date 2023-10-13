@@ -3,7 +3,7 @@ const Header = () => {
     return (
         <header>
             <div className="logo">
-                <img src="public/image/Asset 3@4x.png" alt="Your Logo" />
+                <img src="../../public/image/Asset 3@4x.png" alt="Your Logo" />
             </div>
             <nav>
                 <ul>
